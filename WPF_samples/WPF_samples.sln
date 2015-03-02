@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_layout", "layout\WPF_layout.csproj", "{73732231-258B-46B7-A20C-B6D216BFFC1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpfcalculator2", "calculator\wpfcalculator2.csproj", "{54027CA3-96F1-42BA-82E2-71D6755B7575}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFcalculator2", "calculator\WPFcalculator2.csproj", "{54027CA3-96F1-42BA-82E2-71D6755B7575}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Concentric", "ConcentricRings\Concentric.csproj", "{3B83EE94-61FF-4DD2-A2DB-CACEB37DD97A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFConcentric", "ConcentricRings\WPFConcentric.csproj", "{3B83EE94-61FF-4DD2-A2DB-CACEB37DD97A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFDatabindinglab", "DataBinding\WPFDatabindinglab.csproj", "{6AFEA501-7402-47C4-805D-060448961C78}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +27,10 @@ Global
 		{3B83EE94-61FF-4DD2-A2DB-CACEB37DD97A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B83EE94-61FF-4DD2-A2DB-CACEB37DD97A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B83EE94-61FF-4DD2-A2DB-CACEB37DD97A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AFEA501-7402-47C4-805D-060448961C78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AFEA501-7402-47C4-805D-060448961C78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AFEA501-7402-47C4-805D-060448961C78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AFEA501-7402-47C4-805D-060448961C78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
