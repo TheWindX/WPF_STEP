@@ -21,8 +21,8 @@ namespace _360Timer
         {
             InitializeComponent();
 
-            //this.WindowState = WindowState.Maximized;
-            //this.WindowStyle = WindowStyle.None;
+            this.WindowState = WindowState.Maximized;
+            this.WindowStyle = WindowStyle.None;
             this.ResizeMode = ResizeMode.NoResize;
 
             //frameTimer = new System.Windows.Threading.DispatcherTimer();
