@@ -1,0 +1,35 @@
+﻿<Window x:Class="LayoutDemo.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Layout Demo" Height="300" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        
+        <Button Content="Grid" Grid.Row="0" Grid.Column="0" Click="Grid_Click"/>
+        <Button Content="StackPanel" Grid.Row="0" Grid.Column="1" Click="StackPanel_Click" />
+        <Button Content="WrapPanel" Grid.Row="0" Grid.Column="2" Click="WrapPanel_Click" />
+        <Button Content="DockPanel" Grid.Row="1" Grid.Column="0" Click="DockPanel_Click"/>
+        <Button Content="VirtualizingPanel" Grid.Row="1" Grid.Column="1" Click="Virtualize_Click"/>
+        <Button Content="Canvas" Grid.Row="1" Grid.Column="2" Click="Canvas_Click"/>
+        <Button Content="UniformGrid" Grid.Row="2" Grid.Column="0" Click="UniformGrid_Click"/>
+        <Button Content="ScrollViewer" Grid.Row="2" Grid.Column="1" Click="ScrollViewer_Click"/>
+        <Button Content="ContentControl" Grid.Row="2" Grid.Column="2" />
+        <Button Content="Expander" Grid.Row="3" Grid.Column="0" Click="Expander_Click"/>
+        <Button Content="GroupBox" Grid.Row="3" Grid.Column="1" Click="GroupBox_Click"/>
+        <Button Content="InkCanvas" Grid.Row="3" Grid.Column="2" Click="InkCanvas_Click"/>
+        <Button Content="ViewBox" Grid.Row="4" Grid.Column="0" Click="ViewBox_click"/>
+        <Button Content="Popup" Grid.Row="4" Grid.Column="1" Click="Popup_Click"/>
+        <Button Content="Thumb" Grid.Row="4" Grid.Column="2" />
+    </Grid>
+</Window>

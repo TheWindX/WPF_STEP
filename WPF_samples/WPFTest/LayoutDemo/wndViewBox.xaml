@@ -1,0 +1,10 @@
+﻿<Window x:Class="LayoutDemo.wndViewBox"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="wndViewBox" Height="300" Width="300">
+    <Viewbox Stretch="None" StretchDirection="Both" >
+        <Grid>
+            <TextBox Text="This is a content" FontWeight="Bold" FontSize="30" />
+        </Grid>
+    </Viewbox>
+</Window>

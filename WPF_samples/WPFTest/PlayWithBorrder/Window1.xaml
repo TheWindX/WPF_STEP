@@ -1,0 +1,38 @@
+﻿<Window x:Class="PlayWithBorrder.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Window1" Height="300" Width="300">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Border Width="50" Height="50" x:Name="brdElement" BorderBrush="Goldenrod" BorderThickness="2">
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                        <LinearGradientBrush.GradientStops>
+                            <GradientStop Color="BurlyWood" Offset="0"/>
+                            <GradientStop Color="MediumBlue" Offset=".5"/>
+                            <GradientStop Color="SlateGray" Offset="1"/>
+                        </LinearGradientBrush.GradientStops>
+                    </LinearGradientBrush>
+                </Border.Background>
+                <Border.Effect>
+                    <DropShadowEffect BlurRadius="10" Color="CadetBlue" Direction="45" Opacity=".4" RenderingBias="Performance" ShadowDepth="30" />
+                </Border.Effect>
+            </Border>
+            <Border Width="50" Height="50" BorderBrush="Black" BorderThickness="2">
+                <Border.Background>
+                    <RadialGradientBrush GradientOrigin=".25,.75" RadiusX=".6" RadiusY=".6">
+                        <RadialGradientBrush.GradientStops>
+                            <GradientStop Color="Red" Offset="1"></GradientStop>
+                            <GradientStop Color="Yellow" Offset="0"></GradientStop>
+                        </RadialGradientBrush.GradientStops>
+                    </RadialGradientBrush>
+                </Border.Background>
+            </Border>
+            <Border Width="50" Height="50" Margin="0,10,0,0">
+                <Border.Background>
+                    <VisualBrush TileMode="FlipY" Viewport="1,1,1,1" Visual="{Binding ElementName=brdElement}"></VisualBrush>
+                </Border.Background>
+            </Border>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,13 @@
+﻿<Window x:Class="LayoutDemo.wndScrollViewer"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="wndScrollViewer" Height="300" Width="300">
+    <Grid>
+        <ScrollViewer HorizontalScrollBarVisibility="Auto">
+            <StackPanel VerticalAlignment="Top" HorizontalAlignment="Left">
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,20">Scrolling is enabled when it is necessary. Resize the window, making it larger and smaller.</TextBlock>
+                <Rectangle Fill="Honeydew" Width="500" Height="500"></Rectangle>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>

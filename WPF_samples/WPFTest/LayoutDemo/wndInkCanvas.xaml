@@ -1,0 +1,12 @@
+﻿<Window x:Class="LayoutDemo.wndInkCanvas"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="wndInkCanvas" Height="300" Width="300">
+    <StackPanel>
+        <InkCanvas Height="200" x:Name="icBox">
+        </InkCanvas>
+        <RadioButton GroupName="mode" Checked="Pen_Checked" Content="Pen"/>
+        <RadioButton GroupName="mode" Checked="Erase_Checked"  Content="Eraser By Point" />
+        <RadioButton GroupName="mode" Checked="EraseByStroke_Checked"  Content="Eraser By Stroke" />
+    </StackPanel>
+</Window>

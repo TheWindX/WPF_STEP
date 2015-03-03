@@ -1,0 +1,8 @@
+﻿<Window x:Class="LayoutDemo.wndVirtualize"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="wndVirtualize" Height="300" Width="300" Loaded="Window_Loaded">
+    <Grid>
+        <ListBox x:Name="lstElements" VirtualizingStackPanel.IsVirtualizing="True" VirtualizingStackPanel.VirtualizationMode="Recycling" ItemsSource="{Binding}"/>
+    </Grid>
+</Window>

@@ -1,0 +1,13 @@
+﻿<Window x:Class="LayoutDemo.wndGroupBox"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="wndGroupBox" Height="300" Width="300">
+    <Grid>
+        <GroupBox Header="This goes to Header" Margin="50">
+            <StackPanel>
+                <Button Content="First Element"/>
+                <Button Content="Second Element" />
+            </StackPanel>
+        </GroupBox>
+    </Grid>
+</Window>

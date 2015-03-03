@@ -1,0 +1,24 @@
+﻿<Window x:Class="PlayWithBorrder.Window2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Window2" Height="300" Width="300">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Horizontal">
+            <Border Width="100" Height="100" x:Name="brdElement" CornerRadius="5" >
+                <Border.Background>
+                    <ImageBrush ImageSource="logo.jpg" Opacity=".7">
+                    </ImageBrush>
+                </Border.Background>
+                <Border.BitmapEffect>
+                    <BevelBitmapEffect BevelWidth="5" EdgeProfile="BulgedUp" LightAngle="90" Smoothness=".5" Relief=".7"/>
+                </Border.BitmapEffect>
+            </Border>
+            <Border Width="100" Height="100" Margin="20,0,0,0">
+                <Border.Background>
+                    <VisualBrush Viewport="1,1,1,1" Visual="{Binding ElementName=brdElement}" TileMode="FlipXY" Stretch="UniformToFill"/>
+                </Border.Background>
+            </Border>
+
+        </StackPanel>
+    </Grid>
+</Window>

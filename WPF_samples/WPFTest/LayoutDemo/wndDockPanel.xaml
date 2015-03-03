@@ -1,0 +1,38 @@
+﻿<Window x:Class="LayoutDemo.wndDockPanel"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="DockPanel" Height="300" Width="300">
+    <Grid>
+       
+        <DockPanel>
+            <Border Background="Aqua" DockPanel.Dock="Top">
+                <TextBlock Text="Dock:Top" />
+            </Border>
+            <Border Background="Red" DockPanel.Dock="Bottom">
+                <TextBlock Text="Dock:Bottom" />
+            </Border>
+            <Border Background="Orange" DockPanel.Dock="Left">
+                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="Dock:Left" />
+            </Border>
+            <Border Background="Blue" DockPanel.Dock="Left">
+                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="Dock:Left" />
+            </Border>
+            <Border Background="Aqua" DockPanel.Dock="Bottom">
+                <TextBlock Text="Dock:Top" />
+            </Border>
+            <Border Background="Aquamarine" DockPanel.Dock="Top">
+                <TextBlock Text="Dock:Top" />
+            </Border>
+            <Border Background="BurlyWood" DockPanel.Dock="Right">
+                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="Dock:Right" />
+            </Border>
+            <Border Background="Coral" DockPanel.Dock="Right">
+                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="Dock:Right" />
+            </Border>
+            <Border Background="Cornsilk" >
+                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="Remaining Fill" />
+            </Border>
+        </DockPanel>
+       
+    </Grid>
+</Window>

@@ -1,0 +1,13 @@
+﻿<Window x:Class="LayoutDemo.wndUniformGrid"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="wndUniformGrid" Height="300" Width="300">
+    <UniformGrid Columns="2" Rows="3">
+        <Border Background="Red" />
+        <Border Background="Green" />
+        <Border Background="Blue" />
+        <Border Background="Yellow" />
+        <Border Background="DarkGoldenrod" />
+        <Border Background="DarkKhaki" />
+    </UniformGrid>
+</Window>

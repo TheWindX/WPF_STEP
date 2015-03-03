@@ -1,0 +1,24 @@
+﻿<Window x:Class="LayoutDemo.wndWrapPanel"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="wndWrapPanel" Height="300" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <GroupBox Grid.Row="0" Header="Orientation" >
+            <StackPanel Orientation="Horizontal">
+                <RadioButton GroupName="spanel" Content="Horizontal" Checked="Horizontal_Checked"/>
+                <RadioButton GroupName="spanel" Content="Vertical" Checked="Vertical_Checked" />
+            </StackPanel>
+        </GroupBox>
+        <WrapPanel x:Name="wpMain" Grid.Row="1">
+            <Border Background="Brown" Padding="30"/>
+            <Border Background="Green" Padding="30" />
+            <Border Background="Brown" Padding="30" />
+            <Border Background="Green" Padding="30" />
+        </WrapPanel>
+    </Grid>
+</Window>

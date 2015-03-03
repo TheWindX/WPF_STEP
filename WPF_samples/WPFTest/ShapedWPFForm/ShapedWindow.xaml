@@ -1,0 +1,31 @@
+﻿<Window x:Class="ShapedWPFForm.ShapedWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="ShapedWindow" Height="267" Width="620"
+    Background="Transparent" WindowStyle="None" OpacityMask="White"
+    AllowsTransparency="True" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Image Name="imgBackground" Stretch="Fill" Source="Shape.png" />
+        <Label Height="26" Margin="280,55,244,0" Name="lblUserName" VerticalAlignment="Top" FontWeight="Bold" Foreground="Azure">
+            User Name
+            <Label.BitmapEffect>
+                <OuterGlowBitmapEffect GlowColor="Azure" GlowSize="30" Noise="1" Opacity="0.4" />
+            </Label.BitmapEffect>
+        </Label>
+        <Label Height="26" Margin="280,83,244,0" Name="lblPassword" VerticalAlignment="Top" FontWeight="Bold" Foreground="Azure">
+            Password
+            <Label.BitmapEffect>
+                <OuterGlowBitmapEffect GlowColor="Azure" GlowSize="30" Noise="1" Opacity="0.4" />
+            </Label.BitmapEffect>
+        </Label>
+        <Button Height="25" HorizontalAlignment="Right" Margin="0,0,97,54" Name="btnLogin" VerticalAlignment="Bottom" Width="131" FontSize="12" Click="btnLogin_Click">
+            Login
+            <Button.BitmapEffect>
+                <DropShadowBitmapEffect Color="Black" Direction="320" ShadowDepth="25" 
+                    Softness="1" Opacity="0.5"/>
+            </Button.BitmapEffect>
+        </Button>
+        <TextBox Height="24" HorizontalAlignment="Right" Margin="0,55,89,0" Name="txtUserName" VerticalAlignment="Top" Width="149" />
+        <TextBox Height="24" HorizontalAlignment="Right" Margin="0,85,89,0" Name="txtPassword" VerticalAlignment="Top" Width="149" />
+    </Grid>
+</Window>
