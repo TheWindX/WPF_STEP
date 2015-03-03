@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <RootNamespace>Microsoft.Samples.WPFNotepad</RootNamespace>
+    <AssemblyName>WPFNotepad</AssemblyName>
+    <OutputType>Winexe</OutputType>
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <HostinBrowser>False</HostinBrowser>
+    <UICulture>en-US</UICulture>
+    <ApplicationIcon>notepad.ico</ApplicationIcon>
+    <ApplicationClass>Microsoft.Samples.WPFNotepad.NotepadApplication</ApplicationClass>
+    <SignManifests>True</SignManifests>
+    <GenerateManifests>true</GenerateManifests>
+    <ProjectGuid>{1A9BBB8C-7B84-46CB-B6EC-CAACD1CABE65}</ProjectGuid>
+    <ManifestCertificateThumbprint>9305684892277CD8AAAAE05AC2DFD773B866A16C</ManifestCertificateThumbprint>
+    <ManifestKeyFile>WPFNotepad_TemporaryKey.pfx</ManifestKeyFile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PlatformTarget Condition="'$(TARGET_WOW)' != '' And '$(HostInBrowser)' != 'true' And '$(OutputType)' != 'Library'">x86</PlatformTarget>
+    <TargetFrameworkVersion>v3.0</TargetFrameworkVersion>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>e:\temp\WPFNotepad\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <TargetCulture>en-US</TargetCulture>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <WarningLevel>1</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <OutputPath>.\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="NotepadApp.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <!-- For now stringtable filename must contain culture name in order to be placed in sattelite assembly.-->
+    <EmbeddedResource Include="stringtable.en-US.resText" />
+    <Compile Include="NotepadApp.xaml.cs" />
+    <Compile Include="NotepadDocument.cs" />
+    <Page Include="NotepadEditor.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="GoToDialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="FindDialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PrintProgressWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="FileAssociations.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="FontChooser\FontChooser.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="FontChooser\FontChooser.xaml.cs">
+      <DependentUpon>FontChooser.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FontChooser\FontChoice.cs" />
+    <Compile Include="FontChooser\ColorSelectionItem.cs" />
+    <Compile Include="FontChooser\DialogEvent.cs" />
+    <Compile Include="FontChooser\FontItems.cs" />
+    <Compile Include="FontChooser\KnownColor.cs" />
+    <Compile Include="FontChooser\ToolTipMessage.cs" />
+    <Compile Include="FileAssociations.xaml.cs">
+      <DependentUpon>FileAssociations.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FindDialog.xaml.cs">
+      <DependentUpon>FindDialog.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GoToDialog.xaml.cs">
+      <DependentUpon>GoToDialog.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PrintProgressWindow.xaml.cs">
+      <DependentUpon>PrintProgressWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Content Include="notepad.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Compile Include="AssemblyInfo.cs" />
+    <!-- Specifies fallback to en-US culture -->
+    <Compile Include="NotepadEditor.xaml.cs" />
+    <Compile Include="NotepadPaginator.cs" />
+    <Compile Include="VisualContainer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="ReachFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Printing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="UIAutomationTypes" />
+    <Reference Include="UIAutomationProvider" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+</Project>

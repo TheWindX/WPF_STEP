@@ -10,14 +10,14 @@
         <Style TargetType="{x:Type ListBoxItem}">
             <Style.Triggers>
                 <Trigger Property="Selector.IsSelected" Value="True">
-                    <Setter Property="Background" Value="Moccasin" />
+                    <Setter Property="Background" Value="#FF00FF23" />
                 </Trigger>
             </Style.Triggers>
         </Style>
 
         <DataTemplate x:Key="groupingHeaderTemplate">
             <TextBlock Text="{Binding Path=Name}"
-                       Foreground="Navy" FontWeight="Bold" FontSize="12"/>
+                       Foreground="Red" FontWeight="Bold" FontSize="12"/>
         </DataTemplate>
 
         <Style x:Key="checkBoxStyle" TargetType="{x:Type CheckBox}">
