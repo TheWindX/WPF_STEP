@@ -104,9 +104,9 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\editboxcontrollibrary\WPFEditboxcontrollibrary.csproj">
+    <ProjectReference Include="..\editboxcontrollibrary\libEditboxcontrollibrary.csproj">
       <Project>{C9C67F3A-5286-44E3-9C4A-00FA405C5D4B}</Project>
-      <Name>WPFEditboxcontrollibrary</Name>
+      <Name>libEditboxcontrollibrary</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

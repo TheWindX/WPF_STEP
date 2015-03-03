@@ -7,10 +7,8 @@ using System.Windows.Media;
 using System.Windows.Shapes;
 using System.Windows.Media.Animation;
 
-
 namespace _360Timer
 {
-
     public partial class Window1 : Window
     {
         System.Windows.Threading.DispatcherTimer frameTimer;
@@ -21,7 +19,7 @@ namespace _360Timer
         {
             InitializeComponent();
 
-            this.WindowState = WindowState.Maximized;
+            //this.WindowState = WindowState.Maximized;
             this.WindowStyle = WindowStyle.None;
             this.ResizeMode = ResizeMode.NoResize;
 

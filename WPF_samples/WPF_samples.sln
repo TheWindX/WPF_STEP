@@ -1,43 +1,49 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_layout", "layout\WPF_layout.csproj", "{73732231-258B-46B7-A20C-B6D216BFFC1A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "my_layout", "layout\my_layout.csproj", "{73732231-258B-46B7-A20C-B6D216BFFC1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFcalculator2", "calculator\WPFcalculator2.csproj", "{54027CA3-96F1-42BA-82E2-71D6755B7575}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calculator2", "calculator\calculator2.csproj", "{54027CA3-96F1-42BA-82E2-71D6755B7575}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFConcentric", "ConcentricRings\WPFConcentric.csproj", "{3B83EE94-61FF-4DD2-A2DB-CACEB37DD97A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LOGOConcentric", "ConcentricRings\LOGOConcentric.csproj", "{3B83EE94-61FF-4DD2-A2DB-CACEB37DD97A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFDatabindinglab", "DataBinding\WPFDatabindinglab.csproj", "{6AFEA501-7402-47C4-805D-060448961C78}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Databindinglab", "DataBinding\Databindinglab.csproj", "{6AFEA501-7402-47C4-805D-060448961C78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFEditingexaminer", "EditingExaminer\WPFEditingexaminer.csproj", "{E076421D-5869-4FEE-9D3E-9467AE9524B6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Editingexaminer", "EditingExaminer\Editingexaminer.csproj", "{E076421D-5869-4FEE-9D3E-9467AE9524B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFEditboxcontrollibrary", "ExpenseItStandalone\editboxcontrollibrary\WPFEditboxcontrollibrary.csproj", "{C9C67F3A-5286-44E3-9C4A-00FA405C5D4B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "libEditboxcontrollibrary", "ExpenseItStandalone\editboxcontrollibrary\libEditboxcontrollibrary.csproj", "{C9C67F3A-5286-44E3-9C4A-00FA405C5D4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFExpenseitstandalone", "ExpenseItStandalone\expenseitstandalone\WPFExpenseitstandalone.csproj", "{214B2182-A8B7-42F0-8973-D62E8E677B7B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Expenseitstandalone", "ExpenseItStandalone\expenseitstandalone\Expenseitstandalone.csproj", "{214B2182-A8B7-42F0-8973-D62E8E677B7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFFontdialogsample", "FontDialogBox\WPFFontdialogsample.csproj", "{BA5113A3-EA25-4BA3-96E1-7FB10D9201F0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fontdialogsample", "FontDialogBox\Fontdialogsample.csproj", "{BA5113A3-EA25-4BA3-96E1-7FB10D9201F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFGeometrydesigner", "GeometryDesigner\WPFGeometrydesigner.csproj", "{C2FF39B5-6B7C-4FDB-B587-995D79E41D0C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometrydesigner", "GeometryDesigner\Geometrydesigner.csproj", "{C2FF39B5-6B7C-4FDB-B587-995D79E41D0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFGraphcalc", "GraphingCalculator\WPFGraphcalc.csproj", "{1241B377-8BA7-4AE1-B6CD-66766348B521}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calculatorGraphic", "GraphingCalculator\calculatorGraphic.csproj", "{1241B377-8BA7-4AE1-B6CD-66766348B521}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF3DMaterialgroups", "HexSphere\WPF3DMaterialgroups.csproj", "{74DA1086-903C-4CDC-B506-AB6E9FB8D8F9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3DMaterialgroups", "HexSphere\3DMaterialgroups.csproj", "{74DA1086-903C-4CDC-B506-AB6E9FB8D8F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFLayouttolayout", "LayoutToLayoutTransitions\WPFLayouttolayout.csproj", "{73BC2B73-4133-4FDD-8ABF-9895791BC185}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Layouttolayout", "LayoutToLayoutTransitions\Layouttolayout.csproj", "{73BC2B73-4133-4FDD-8ABF-9895791BC185}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFLogonscreen", "LogonScreen\WPFLogonscreen.csproj", "{BC7BE5F7-7F2A-40AB-81B3-5C771D5A9970}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logonscreen", "LogonScreen\Logonscreen.csproj", "{BC7BE5F7-7F2A-40AB-81B3-5C771D5A9970}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFNotepad", "Notepad\WPFNotepad.csproj", "{1A9BBB8C-7B84-46CB-B6EC-CAACD1CABE65}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notepad", "Notepad\Notepad.csproj", "{1A9BBB8C-7B84-46CB-B6EC-CAACD1CABE65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFPhotoFlipper", "PhotoFlipper\WPFPhotoFlipper.csproj", "{A1C879B6-5EA2-473E-B5E0-99E2F4E5E3D0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoFlipper", "PhotoFlipper\PhotoFlipper.csproj", "{A1C879B6-5EA2-473E-B5E0-99E2F4E5E3D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFPhotodemo", "PhotoStore\WPFPhotodemo.csproj", "{E0E752D9-A1E4-4848-83EB-FB36F32C2456}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Photodemo", "PhotoStore\Photodemo.csproj", "{E0E752D9-A1E4-4848-83EB-FB36F32C2456}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFStickynotes", "StickyNotes\WPFStickynotes.csproj", "{B3CF90F5-CA9C-44EF-9A56-39DD40E1FB59}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stickynotes", "StickyNotes\Stickynotes.csproj", "{B3CF90F5-CA9C-44EF-9A56-39DD40E1FB59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFVideotext", "VideoText\WPFVideotext.csproj", "{978DF927-ADB8-4088-9514-66DF51AA2088}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Videotext", "VideoText\Videotext.csproj", "{978DF927-ADB8-4088-9514-66DF51AA2088}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFPhotoViewer", "WPFPhotoViewer\WPFPhotoViewer.csproj", "{02D45625-0383-4480-B4BC-05DDE4F3825D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoViewer", "WPFPhotoViewer\PhotoViewer.csproj", "{02D45625-0383-4480-B4BC-05DDE4F3825D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoveResizeRotateWithAdorners", "DiagramDesignerPart1\MoveResizeRotateWithAdorners\MoveResizeRotateWithAdorners.csproj", "{7B1D1E85-7F7B-47A8-8D5D-47BA75B29A97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoveResize", "DiagramDesignerPart1\MoveResize\MoveResize.csproj", "{95CDC6DB-FF23-4262-8447-3CFE6B4C7188}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoveResizeRotate", "DiagramDesignerPart1\MoveResizeRotate\MoveResizeRotate.csproj", "{EF0B4258-89E8-423F-A38D-C1E8AF9FD5C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -121,6 +127,18 @@ Global
 		{02D45625-0383-4480-B4BC-05DDE4F3825D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02D45625-0383-4480-B4BC-05DDE4F3825D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02D45625-0383-4480-B4BC-05DDE4F3825D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B1D1E85-7F7B-47A8-8D5D-47BA75B29A97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B1D1E85-7F7B-47A8-8D5D-47BA75B29A97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B1D1E85-7F7B-47A8-8D5D-47BA75B29A97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B1D1E85-7F7B-47A8-8D5D-47BA75B29A97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95CDC6DB-FF23-4262-8447-3CFE6B4C7188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95CDC6DB-FF23-4262-8447-3CFE6B4C7188}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95CDC6DB-FF23-4262-8447-3CFE6B4C7188}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95CDC6DB-FF23-4262-8447-3CFE6B4C7188}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF0B4258-89E8-423F-A38D-C1E8AF9FD5C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF0B4258-89E8-423F-A38D-C1E8AF9FD5C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF0B4258-89E8-423F-A38D-C1E8AF9FD5C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF0B4258-89E8-423F-A38D-C1E8AF9FD5C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
