@@ -83,6 +83,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomControls", "WPFTest\c
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimationStyles", "WPFTest\AnimationStyles\AnimationStyles.csproj", "{19FBD37D-E9B3-42AC-B04E-A827D94F7694}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "controls", "controls", "{D3CDB111-6D27-4A6A-82B6-5304E2D4FC4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListBoxListViewComboBox", "WPFTest\controls\ListView\ListBoxListViewComboBox.csproj", "{A07340F9-A59C-441F-AA85-4530E6D830AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -453,6 +457,16 @@ Global
 		{19FBD37D-E9B3-42AC-B04E-A827D94F7694}.Release|Mixed Platforms.Build.0 = Release|x86
 		{19FBD37D-E9B3-42AC-B04E-A827D94F7694}.Release|x86.ActiveCfg = Release|x86
 		{19FBD37D-E9B3-42AC-B04E-A827D94F7694}.Release|x86.Build.0 = Release|x86
+		{A07340F9-A59C-441F-AA85-4530E6D830AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A07340F9-A59C-441F-AA85-4530E6D830AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A07340F9-A59C-441F-AA85-4530E6D830AE}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{A07340F9-A59C-441F-AA85-4530E6D830AE}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{A07340F9-A59C-441F-AA85-4530E6D830AE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A07340F9-A59C-441F-AA85-4530E6D830AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A07340F9-A59C-441F-AA85-4530E6D830AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A07340F9-A59C-441F-AA85-4530E6D830AE}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A07340F9-A59C-441F-AA85-4530E6D830AE}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{A07340F9-A59C-441F-AA85-4530E6D830AE}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -496,5 +510,7 @@ Global
 		{22944914-DADB-49DE-BAFB-D0DA34AFE346} = {93B458E0-E21C-4451-84D6-DDBAF844FAB2}
 		{A8FB5523-0CBF-4354-9BB7-4648382304EF} = {93B458E0-E21C-4451-84D6-DDBAF844FAB2}
 		{19FBD37D-E9B3-42AC-B04E-A827D94F7694} = {A213C457-EE93-45EC-95FF-4646A56A2CFA}
+		{D3CDB111-6D27-4A6A-82B6-5304E2D4FC4E} = {A213C457-EE93-45EC-95FF-4646A56A2CFA}
+		{A07340F9-A59C-441F-AA85-4530E6D830AE} = {D3CDB111-6D27-4A6A-82B6-5304E2D4FC4E}
 	EndGlobalSection
 EndGlobal
