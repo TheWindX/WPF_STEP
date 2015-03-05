@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="PersistDataGrid.Header"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignWidth="144"
+             PreviewMouseLeftButtonDown="UserControl_PreviewMouseLeftButtonDown"
+             GotMouseCapture="UserControl_GotMouseCapture">
+    <UserControl.Resources>
+        <Style  x:Key="HeaderStyle" TargetType="{x:Type Border}">
+            <Setter Property="Background" Value="{StaticResource DGP_Head_NormalBrush}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource DGP_Head_NormalBorderBrush}"/>
+            <Style.Triggers>
+                <Trigger Property="Border.IsMouseOver" Value="true">
+                    <Setter Property = "Background" Value="{StaticResource DGP_Head_HighlightBrush}"/>
+                    <Setter Property = "BorderBrush" Value="{StaticResource DGP_Head_HighlightBorderBrush}"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style  x:Key="NoArrowStyle" TargetType="{x:Type Path}">
+            <Setter Property="Fill" Value="Transparent"/>
+        </Style>
+    </UserControl.Resources>
+    <Grid>
+        <Border Name="HeaderBorder" Style="{StaticResource HeaderStyle}" BorderThickness="1,0,0,1">
+            <Label Name="Title"/>
+        </Border>
+        <Path Name="Arrow"/> 
+    </Grid>
+</UserControl>
