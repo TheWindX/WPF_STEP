@@ -1,0 +1,14 @@
+﻿<Window x:Class="ColorControlApp.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:src="clr-namespace:ColorPicker;assembly=ColorPickerControl" 
+    Title="ColorControlApp" Height="300" Width="300">
+  <StackPanel Name="Stack">
+    <Label  Name="lblColor"     Background="White" 
+            Foreground="Black"  BorderBrush="White"
+            FontSize="12"       FontWeight="Bold"
+            FontStyle="Italic">Please pick a color</Label>
+    <src:ColorPickerControl HorizontalAlignment="Center" 
+                            VerticalAlignment="Center" Name="lstColorPicker"/>
+  </StackPanel>
+</Window>
