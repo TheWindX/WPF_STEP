@@ -8,7 +8,7 @@
     <local:ColumnedPanel Width="auto" Height="200" 
                          VerticalAlignment="Center" Background="WhiteSmoke">
         <Rectangle Fill="Black" Width="50" Height="50" Margin="10"/>
-        <Rectangle Fill="Black" Width="50" Height="50" Margin="10"/>
+        <Rectangle Fill="Red" Width="50" Height="50" Margin="10"/>
         <Rectangle Fill="Black" Width="50" Height="50" Margin="10"/>
         <Rectangle Fill="Black" Width="50" Height="50" Margin="10"/>
         <Rectangle Fill="Black" Width="50" Height="50" Margin="10"/>
