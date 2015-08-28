@@ -1,0 +1,26 @@
+﻿<Window x:Class="CustomPanel.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:CustomPanel;assembly="     
+    Title="Window1" Height="300" Width="300">
+    
+    
+    <local:ColumnedPanel Width="auto" Height="200" 
+                         VerticalAlignment="Center" Background="WhiteSmoke">
+        <Rectangle Fill="Black" Width="50" Height="50" Margin="10"/>
+        <Rectangle Fill="Black" Width="50" Height="50" Margin="10"/>
+        <Rectangle Fill="Black" Width="50" Height="50" Margin="10"/>
+        <Rectangle Fill="Black" Width="50" Height="50" Margin="10"/>
+        <Rectangle Fill="Black" Width="50" Height="50" Margin="10"/>
+        <!-- Without the DP ColumnedPanel.ColumnBreakBefore set here, 
+             this button would fit in the current column-->
+        <Button local:ColumnedPanel.ColumnBreakBefore="True" 
+                FontWeight="Bold" Width="80" Height="80">New Column</Button>
+        <Rectangle Fill="Black" Width="50" Height="50" Margin="10"/>
+        <Rectangle Fill="Black" Width="50" Height="50" Margin="10"/>
+        <Rectangle Fill="Black" Width="50" Height="50" Margin="10"/>
+        <Rectangle Fill="Black" Width="50" Height="50" Margin="10"/>
+        <Rectangle Fill="Black" Width="50" Height="50" Margin="10"/>
+        <Rectangle Fill="Black" Width="50" Height="50" Margin="10"/>
+    </local:ColumnedPanel>
+</Window>
