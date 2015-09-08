@@ -17,17 +17,17 @@ namespace ClientUI
 
         public viewButtonEditor()
         {
-            InitializeComponent();
+            //InitializeComponent();
 
-            _cacheButtonProperties.CopyValues( btnTarget );
-            _cacheDemoAreaProperties.CopyValues( demoArea );
+            //_cacheButtonProperties.CopyValues( btnTarget );
+            //_cacheDemoAreaProperties.CopyValues( demoArea );
         }
 
 
         private void OnResetToDefaults( object sender, RoutedEventArgs e )
         {
-            _cacheButtonProperties.RestoreValues( btnTarget );
-            _cacheDemoAreaProperties.RestoreValues( demoArea );
+            //_cacheButtonProperties.RestoreValues( btnTarget );
+            //_cacheDemoAreaProperties.RestoreValues( demoArea );
         }
     }
 }
